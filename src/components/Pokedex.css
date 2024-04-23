@@ -1,0 +1,28 @@
+.pokedex .pokedex-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+ 
+ .pokedex-item-name {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+
+  .pokedex-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  
